@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1>welcome to tutorial</h1>
+    <ul class="text2">
+        <li>apple</li>
+        <li>pinapple</li>
+        <li>orange</li>
+    </ul>
+    <script src="jquery-3.5.1.js"></script>
+    <script>
+        $(document).ready(function(){
+            $('h1').click(function(){
+                $('li').each(function(){
+                    console.log("suman")
+                });
+            });
+        });
+    </script>
+</body>
+</html>

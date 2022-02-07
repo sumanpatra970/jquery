@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <form action="" id='form'>
+        <label for='sname'>Name</label>
+        <input type="text" id='sname'>
+        <label for='semail'>Email</label>
+        <input type="email" id='semail'>
+        <label for="scountry">Country</label>
+        <select name="" id="scountry">
+            <option>india</option>
+            <option>srilanka</option>
+        </select>
+        <input type="submit" id='#id1'>
+    </form>
+    <script src="jquery-3.5.1.js"></script>
+    <script>
+        $(document).ready(function(){
+            $('#sname,#semail,#scountry').focus(function(){
+                $(this).css('background-color','lime')               
+            });
+            $('#sname,#semail,#scountry').blur(function(){
+                $(this).css('background-color','cyan')               
+            });
+            $('#scountry').change(function(){
+                $(this).css('background-color','red')               
+            });
+            $('#sname,#semail').select(function(){
+                $(this).css('background-color','yellow')               
+            });
+            $('#form').submit(function(){
+                $('body').css('background-color','lime')               
+            });
+        });
+    </script>
+</body>
+</html>

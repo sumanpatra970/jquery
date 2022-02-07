@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1>welcome to tutorial</h1>
+    <div class='text1'>
+        <h1>text box1</h1>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempore voluptas adipisci doloremque quos? Illo quod consequatur modi mollitia? Perferendis hic maxime ratione cum, iure numquam earum velit! Porro, culpa? Commodi?</p>
+    </div>
+    <div class='text2'>
+        <h1>text box1</h1>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempore voluptas adipisci doloremque quos? Illo quod consequatur modi mollitia? Perferendis hic maxime ratione cum, iure numquam earum velit! Porro, culpa? Commodi?</p>
+    </div>
+    <script src="jquery-3.5.1.js"></script>
+    <script>
+        $(document).ready(function(){
+            $('.text1').click(function(){
+                $('.text1').text("hello suman")
+                $('.text2').html("<b>hello suman</b>")
+            });
+        });
+    </script>
+</body>
+</html>

@@ -1,0 +1,30 @@
+.text1{
+    background-color: aquamarine;
+}
+.text2{
+    background-color: chartreuse;
+}
+.cox{
+    width: 50%;
+    height: 200px;
+    background-color: pink;
+    padding: 10px;
+    border: 10px;
+    margin: 100px;
+    overflow: auto;
+}
+.tan{
+    background-color: grey;
+}
+.pan{
+    background-color: orangered;
+}
+.box{
+        width: 50%;
+        height: 200px;
+        background-color: pink;
+        padding: 10px;
+        border: 10px;
+        margin: 100px;
+        overflow: auto;
+}

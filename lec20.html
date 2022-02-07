@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1>welcome to tutorial</h1>
+    <div class='text1'>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempore voluptas adipisci doloremque quos? Illo quod consequatur modi mollitia? Perferendis hic maxime ratione cum, iure numquam earum velit! Porro, culpa? Commodi?</p>
+    </div>
+    <div id='cox'>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempore voluptas adipisci doloremque quos? Illo quod consequatur modi mollitia? Perferendis hic maxime ratione cum, iure numquam earum velit! Porro, culpa? Commodi?</p>
+    </div>
+    <div class='text2'>
+        <h1>text box1</h1>
+        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Commodi voluptate rem fugiat vel, nam facilis sapiente non deserunt numquam vero, nemo saepe enim delectus recusandae soluta animi rerum nisi sequi.</p>
+    </div>
+    <script src="jquery-3.5.1.js"></script>
+    <script>
+        $(document).ready(function(){
+            $('.text1').click(function(){
+                $('#cox').toggle()
+            });
+            $('.text2').click(function(){
+                $('#cox').hide()
+            });
+        });
+    </script>
+</body>
+</html>

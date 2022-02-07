@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link rel="stylesheet" href="style.css">
+    </head>
+<body>
+    <h1 class="text1">welcome to tutorial</h1>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempore voluptas adipisci doloremque quos? Illo quod consequatur modi mollitia? Perferendis hic maxime ratione cum, iure numquam earum velit! Porro, culpa? Commodi?</p>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempore voluptas adipisci doloremque quos? Illo quod consequatur modi mollitia? Perferendis hic maxime ratione cum, iure numquam earum velit! Porro, culpa? Commodi?</p>
+    <div class="text2">hello</div>
+    <script src="jquery-3.5.1.js"></script>
+    <script>
+        $(document).ready(function(){
+            $('.text1').click(function(){
+                $('p').wrapAll('<div class="pan"></div>')
+        });
+        $('.text2').click(function(){
+            $('.text2').wrapInner('<h2></h2>')
+        });
+    });
+    </script>
+</body>
